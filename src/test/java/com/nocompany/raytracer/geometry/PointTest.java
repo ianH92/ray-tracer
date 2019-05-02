@@ -5,9 +5,9 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 /**
- * Test class for Point entity.
+ * Test class for Point.java
  * 
- * @author IAN
+ * @author ianH92
  */
 public class PointTest {
 

@@ -37,6 +37,24 @@ public class Vector {
 		return this.length;
 	}
 	
+	/**
+	 * Normalizes the vector.
+	 */
+	public void normalize() {
+		x = (x / length);
+		y = (y / length);
+		z = (z / length);
+	}
+	
+	/**
+	 * Return the unit vector for this vector.
+	 * 
+	 * @return The normalized vector or unit vector
+	 */
+	public Vector getUnitVector() {
+		return new Vector((x / length), (y / length), (z / length));
+	}
+	
 	public Double getXCoordinate() {
 		return this.x;
 	}
